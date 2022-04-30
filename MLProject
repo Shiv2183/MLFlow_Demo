@@ -1,16 +1,16 @@
 name: ml_service
 
-conda_env: ./env/conda.yaml
+conda_env: conda.yaml
 
 entry_points:
 
   step1:
     parameters:
-    command: "python src/step1.py "
+    command: "python step1.py"
 
   step2:
     parameters:
-    command: "python src/step2.py "
+    command: "python step2.py"
 
   main:
-    command: "python main.py "
+    command: "python main.py"
