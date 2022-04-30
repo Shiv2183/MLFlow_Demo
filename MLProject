@@ -5,11 +5,9 @@ conda_env: conda.yaml
 entry_points:
 
   step1:
-    parameters:
     command: "python step1.py"
 
   step2:
-    parameters:
     command: "python step2.py"
 
   main:
